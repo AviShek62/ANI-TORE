@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0a">
+<title>Explore Collections | ANI-TORE</title>
+<link rel="stylesheet" href="explore.css">
+</head>
+<body>
+<header class="top-bar">
+  <a class="logo" href="index.html" aria-label="ANI-TORE home">ANI-TORE</a>
+  <nav class="collection-nav" aria-label="Shop collections">
+    <a href="#clothes">Clothes</a>
+    <a href="#action-figures">Action Figures</a>
+    <a href="#posters">Posters</a>
+    <a href="#random-surprise">Random Surprise</a>
+  </nav>
+  <label class="search">
+    <span class="visually-hidden">Search collections</span>
+    <input type="search" id="collection-search" placeholder="Search collections..." autocomplete="off">
+  </label>
+</header>
+
+<main>
+  <section class="page-intro">
+    <span class="eyebrow">FIND YOUR NEXT FAVOURITE</span>
+    <h1>Explore the collection</h1>
+    <p>Anime-inspired finds for your wardrobe, your shelves, and everything in between.</p>
+  </section>
+
+  <section class="collection-section" id="clothes">
+    <div class="section-heading">
+      <div><span class="eyebrow">WEAR YOUR FANDOM</span><h2>Clothes</h2></div>
+      <p>Everyday fits with anime energy.</p>
+      <a class="see-more" href="clothes.html">See more <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="collection-grid">
+      <article class="collection-card" data-search="clothes apparel hoodie anime streetwear">
+        <img src="image/ken-takakura-okarun-3840x2160-20021.jpg" alt="Anime-inspired streetwear artwork">
+        <div class="card-copy"><span>APPAREL</span><h3>Anime Streetwear</h3><p>Tees, hoodies, and layers for your daily rotation.</p></div>
+      </article>
+      <article class="collection-card" data-search="clothes apparel graphic tee goku">
+        <img src="image/son-goku-silhouette-11520x6480-17760.png" alt="Goku silhouette artwork">
+        <div class="card-copy"><span>FAN FAVOURITES</span><h3>Graphic Tees</h3><p>Make a statement with iconic character art.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="collection-section" id="action-figures">
+    <div class="section-heading">
+      <div><span class="eyebrow">BRING THEM TO LIFE</span><h2>Action Figures</h2></div>
+      <p>Bring your favourite characters home.</p>
+      <a class="see-more" href="action-figures.html">See more <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="collection-grid">
+      <article class="collection-card" data-search="action figure collectible dragon ball goku">
+        <img src="image/son-goku-shenron-5120x2880-19885.jpg" alt="Goku and Shenron artwork">
+        <div class="card-copy"><span>COLLECTIBLES</span><h3>Character Figures</h3><p>Build a shelf worthy of your favourite series.</p></div>
+      </article>
+      <article class="collection-card" data-search="action figure collectible hero">
+        <img src="image/my-hero-academia-7680x4320-20251.jpg" alt="My Hero Academia character artwork">
+        <div class="card-copy"><span>HEROES &amp; RIVALS</span><h3>Display-ready Finds</h3><p>Discover collectibles for fans and collectors alike.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="collection-section" id="posters">
+    <div class="section-heading">
+      <div><span class="eyebrow">MAKE IT YOUR WALL</span><h2>Posters</h2></div>
+      <p>Iconic art for your favourite space.</p>
+      <a class="see-more" href="posters.html">See more <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="collection-grid">
+      <article class="collection-card" data-search="poster wall art berserk manga">
+        <img src="image/guts-5k-berserk-5120x2880-13631.jpg" alt="Berserk-inspired Guts artwork">
+        <div class="card-copy"><span>WALL ART</span><h3>Anime Art Prints</h3><p>Bring striking scenes and characters to your walls.</p></div>
+      </article>
+      <article class="collection-card" data-search="poster wall art anime city">
+        <img src="image/illustration-anime-city.jpg" alt="Illustrated anime city at night">
+        <div class="card-copy"><span>SCENIC ART</span><h3>Worlds to Get Lost In</h3><p>Set the scene with atmospheric anime artwork.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="collection-section" id="random-surprise">
+    <div class="section-heading">
+      <div><span class="eyebrow">A LITTLE MYSTERY</span><h2>Random Surprise</h2></div>
+      <p>Unexpected picks for curious fans.</p>
+      <a class="see-more" href="random-surprise.html">See more <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="collection-grid">
+      <article class="collection-card" data-search="random surprise mystery assorted anime gift">
+        <img src="image/laughing-luffy-one-5120x2880-19342.jpg" alt="One Piece-inspired character artwork">
+        <div class="card-copy"><span>MYSTERY PICKS</span><h3>Surprise Me</h3><p>Explore a little bit of everything from the anime universe.</p></div>
+      </article>
+      <article class="collection-card" data-search="random surprise mystery manga assorted">
+        <img src="image/saitama-dark-5120x2880-19846.png" alt="Saitama in dramatic dark anime artwork">
+        <div class="card-copy"><span>FAN DISCOVERY</span><h3>Something Unexpected</h3><p>Find a new favourite with a mystery-inspired collection.</p></div>
+      </article>
+    </div>
+  </section>
+</main>
+<p class="empty-state" id="empty-state" hidden>No matching collections found. Try another search.</p>
+<script src="explore.js"></script>
+</body>
+</html>
